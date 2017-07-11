@@ -1,0 +1,40 @@
+{
+	"dashboard" : "Tableau de bord",
+	"ui elements" : "Eléments d'interface",
+	"apps" : "Apps",
+	"buttons" : "Boutons",
+	"components" : "Composants",
+	"tabs" : "Onglets",
+	"animations css3" : "Animations CSS3",
+	"typography" : "Typographie",
+	"nestable list" : "Liste Dynamique",
+	"tree view" : "Arborescence",
+	"modals" : "Popup",
+	"notifications" : "Notifications",
+	"icons" : "Icônes",
+    "title_action_insert_user":"Insertua le User",
+	"Search..." : "Rechercher...",
+	"Available": "Disponible",
+	"Busy" :"Occupé",
+	"Away" :"Absent",
+	"nomencladores": "lo mismo en frances",
+	"tipo_moneda": "Le moned",
+	"tipo_casas": "Le Home",
+	"servicios": "Le services",
+	"Layouts": "Disposition",
+	"Forms": "Formulaires",
+	"Tables": "Tableaux",
+	"Charts": "Graphiques",
+	"Folders": "Dossiers",
+	"My Documents": "Mes Documents",
+	"My images": "Mes images",
+	"Secure data": "Données sécurisées",
+	"Language": "Langues"
+
+
+
+
+
+
+
+}

@@ -1,0 +1,10 @@
+<?php
+if(Yii::$app->getUser()->identity==null)
+{
+	include(Yii::$app->view->theme->basePath.'/views/layouts/template_login.php');
+}
+else
+{
+	include(Yii::$app->view->theme->basePath.'/views/layouts/admin.php');
+}
+?>

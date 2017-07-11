@@ -1,0 +1,77 @@
+#wrapper {position:absolute;top:0;right:0;bottom:0;left:0;width:auto;height:auto;z-index:2;overflow:auto;
+  -webkit-overflow-scrolling:touch;
+  /*  -webkit-transform:translate3d(0,0,0);  -moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);  -o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);
+  background:#ECF0F1;
+*/
+ background:#fff;
+}
+.chat-sidebar{position:absolute;top:0;right:0;bottom:0;left:0;width:auto;height:auto}
+.chat{position:absolute;top:0;right:auto;bottom:0;left:auto;width:280px;height:auto;overflow:auto;-webkit-overflow-scrolling:touch;-webkit-transition:width .3s ease;-moz-transition:width .3s ease;-ms-transition:width .3s ease;-o-transition:width .3s ease;transition:width .3s ease}
+.chat-inner{left:0;z-index:1}
+.chat-right{right:0;z-index:1}
+.snapjs-left .chat-right,.snapjs-right .chat-inner{display:none}
+.snapjs-expand-left .chat-inner,.snapjs-expand-right .chat-right{width:100%}
+.snapjs-right .chat-inner{display:block;right:0;left:auto}
+.snapjs-right .chat-right{display:none}
+#open-left{background:url(open.png) center center no-repeat;display:block;width:44px;height:44px}
+.chat-sidebar{background:#1b1e25}
+.chat{top: 60px;background:#1b1e25;color:#eee}
+.chat .chat-header {position: fixed;top:0;width:280px;z-index: 10;height:60px;padding:18px 30px;background-color: #292C35;font-size: 20px;font-family: 'Carrois Gothic'}
+.chat .chat-header .title {position: absolute;left:60px; top:0;height:60px;width: 160px;color:#fff;display: table; }
+.chat .chat-header .title span{display: table-cell;vertical-align: middle;text-align: center}
+.chat .chat-header .left {position: absolute;left:0; top:0;height:60px;width: 60px;color:#969696;display: table;}
+.chat .chat-header .left:hover{cursor: pointer}
+.chat .chat-header .left i {display: table-cell;vertical-align: middle;text-align: center}
+.chat .chat-header .left:hover i {color:#fff;}
+.chat .chat-header .right {position: absolute;right:0; top:0;height:60px;width: 60px;color:#969696;display: table;}
+.chat .chat-header .right:hover{cursor: pointer}
+.chat .chat-header .right i{display: table-cell;vertical-align: middle;text-align: center}
+.chat .chat-header .right:hover i {color:#fff;}
+.chat .chat-body .chat-search {padding:30px 25px 0 30px;}
+.chat .chat-body .chat-search .form-control  {width:100%;}
+.chat .chat-body .chat-groups{padding:15px 25px 0 30px;}
+.chat .chat-body .chat-groups i {margin-top:9px;}
+.chat .chat-body .chat-groups .title {font-weight: 700;color:#526A82;text-transform: uppercase; font-family: 'Lato', 'Carrois Gothic'}
+.chat .chat-body .chat-groups ul {list-style: none;margin: 0;margin-top: 10px;padding-left: 0;}
+.chat .chat-body .chat-groups ul li {line-height: 25px;color:#E2E2E2;}
+.chat .chat-body .chat-groups ul li:hover {cursor:pointer;}
+i.online, i.busy, i.away, i.offline, i.turquoise{border-radius:50%;content:"";height:7px;width:7px;margin-top: 15px;margin-right: 13px;}
+.chat .chat-body .chat-groups li i {float:left;}
+.chat .chat-body .chat-list li i {float:right;}
+i.online{background-color:#18a689}
+i.turquoise{background-color:#52c1df }
+i.away{background-color:#f90}
+i.busy{background-color:#c75757}
+i.offline{background-color:rgba(255,255,255,0.2)}
+.chat .chat-body .chat-list{padding:15px 10px 0px 10px;}
+.chat .chat-list .title {font-weight: 700;margin-top: 30px;margin-left: 20px;margin-bottom: 10px;color:#526A82;font-family: Lato, 'Carrois Gothic';}
+.chat .chat-list ul li {display:block; padding:10px 15px;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;}
+.chat .chat-list ul li:hover {background-color: #292C35;cursor:pointer;}
+.chat .chat-list .user-img {width:50px;float:left;}
+.chat .chat-list .user-img .badge  {position: absolute;margin-left: -10px;font-size: 11px;padding: 2px 5px;}
+.chat .chat-list .user-details {float:left;width:130px;}
+.chat .chat-list .user-details .user-txt {color:#526A82;}
+
+
+.chat .chat-conversation {display: none}
+.chat .chat-conversation  .conversation-header {padding: 20px;}
+.chat .chat-conversation  .conversation-header .user {background-color: #292C35; padding:10px 15px;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;}
+.chat .chat-conversation  .conversation-header .user-img {width:50px;float:left;}
+.chat .chat-conversation  .conversation-header .user-img .badge  {position: absolute;margin-left: -10px;font-size: 11px;padding: 2px 5px;}
+.chat .chat-conversation  .conversation-header .user-details {float:left;width:130px;}
+.chat .chat-conversation  .conversation-header .user-details .user-txt{color:#526A82;}
+.chat .chat-conversation  .conversation-header .user-status i {float:right;margin-top: 15px;margin-right: 0;}
+.chat .chat-conversation  .conversation-body {padding: 25px;}
+.chat .chat-conversation  .conversation-body li {margin-bottom:15px;clear:both;content: " ";display: table;}
+.chat .chat-conversation  .conversation-body .conversation-img{float:left;margin-right: 15px}
+.chat .chat-conversation  .conversation-body .chat-detail{float:left}
+.chat .chat-conversation  .conversation-body .chat-detail .chat-bubble{float: right;position:relative;width:180px;min-height:40px;padding:0;background:#e5e9ec;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;color:#22262e;padding:10px;white-space:normal;line-height:20px}
+.chat .chat-conversation  .conversation-body .chat-detail .chat-bubble:after{content:'';position:absolute;border-style:solid;border-width:9px 7px 9px 0;border-color:rgba(0,0,0,0) #e5e9ec;display:block;width:0;z-index:1;left:-7px;top:12px}
+.chat .chat-conversation  .conversation-body .chat-detail .chat-date {display:block;color:#636F77;margin-bottom:8px;text-align:right;font-size: 12px}
+
+::-webkit-scrollbar {z-index:30;width:10px;}  
+::-webkit-scrollbar-track {background-color: #eaeaea;border-left: 1px solid #c1c1c1;}
+::-webkit-scrollbar-thumb {background-color: #c1c1c1;}  
+::-webkit-scrollbar-thumb:hover { background-color: #aaa; }  
+::-webkit-scrollbar-track {border-radius: 0;box-shadow: none;border: 0;}
+::-webkit-scrollbar-thumb {border-radius: 0;box-shadow: none;border: 0;} 

@@ -1,0 +1,39 @@
+.k-link{
+    color: #2C8CA1!important;
+    font-weight:bold ;
+}
+.k-grid-pager{
+    border-top-color: rgb(44, 140, 161);
+    border-top-width: 1px;
+    border-bottom-color: rgb(44, 140, 161);
+    border-bottom-width: 1px;
+}
+.k-state-selected {
+    border-color: rgb(44, 140, 161) transparent transparent!important;
+    border-radius: 0px;
+    box-shadow: none;
+    color: rgb(44, 140, 161)!important;
+}
+.k-pager-info{
+    color: rgb(44, 140, 161)!important;
+}
+.k-pager-wrap, .k-editor-toolbar {
+    color: rgb(44, 140, 161)!important;
+}
+.k-icon .k-i-refresh {
+    color: rgb(44, 140, 161)!important;
+}
+.x_title a{
+    text-shadow: none;
+    color: rgb(44, 140, 161)!important;
+}
+.edit{
+    cursor: hand;!important
+}
+.delete{
+    cursor: hand;!important
+
+}
+.header h2{
+    margin-left: 20px;
+}
